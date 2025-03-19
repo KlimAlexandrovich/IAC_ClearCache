@@ -12,7 +12,8 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f0f0f0;
+            /* Добавлен градиентный фон */
+            background: linear-gradient(to bottom, #00c6ff, #0072ff);
         }
 
         h1 {
@@ -41,7 +42,7 @@
 </head>
 <body>
 <div class="message-box">
-    <h1><a href="{{ url_for('run_script') }}">Сбросить кэш!</a></h1>
+    <h1><a href="{{ url_for('run_script') }}">Сбросить кэш</a></h1>
 </div>
 </body>
 </html>

@@ -429,3 +429,298 @@ Stacktrace:
 
 2025-03-19 20:53:16,705 INFO 127.0.0.1 - - [19/Mar/2025 20:53:16] "[32mGET /run-script HTTP/1.1[0m" 302 -
 2025-03-19 20:53:16,718 INFO 127.0.0.1 - - [19/Mar/2025 20:53:16] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:54:36,890 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:54:36,890 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:54:36,890 INFO  * Restarting with stat
+2025-03-19 20:54:36,986 WARNING  * Debugger is active!
+2025-03-19 20:54:36,992 INFO  * Debugger PIN: 124-228-198
+2025-03-19 20:54:39,996 INFO 127.0.0.1 - - [19/Mar/2025 20:54:39] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:54:46,159 INFO 127.0.0.1 - - [19/Mar/2025 20:54:46] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:54:47,249 INFO 127.0.0.1 - - [19/Mar/2025 20:54:47] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-03-19 20:54:47,250 INFO 127.0.0.1 - - [19/Mar/2025 20:54:47] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-03-19 20:54:47,252 INFO 127.0.0.1 - - [19/Mar/2025 20:54:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-19 20:54:48,358 INFO 127.0.0.1 - - [19/Mar/2025 20:54:48] "GET / HTTP/1.1" 200 -
+2025-03-19 20:54:49,740 INFO 127.0.0.1 - - [19/Mar/2025 20:54:49] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:54:50,609 INFO 127.0.0.1 - - [19/Mar/2025 20:54:50] "GET / HTTP/1.1" 200 -
+2025-03-19 20:54:53,956 WARNING <function Cleaner.clear_cache at 0x1042e58a0> was failed. Exception description:
+Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x000000010263d804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000102635ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000102189ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x000000010218243c cxxbridge1$string$len + 61588
+4   chromedriver                        0x0000000102174624 cxxbridge1$string$len + 4732
+5   chromedriver                        0x0000000102176004 cxxbridge1$string$len + 11356
+6   chromedriver                        0x0000000102174a8c cxxbridge1$string$len + 5860
+7   chromedriver                        0x0000000102174400 cxxbridge1$string$len + 4184
+8   chromedriver                        0x000000010217414c cxxbridge1$string$len + 3492
+9   chromedriver                        0x0000000102171e64 chromedriver + 188004
+10  chromedriver                        0x0000000102172988 chromedriver + 190856
+11  chromedriver                        0x000000010218ce58 cxxbridge1$string$len + 105136
+12  chromedriver                        0x0000000102213198 cxxbridge1$string$len + 654832
+13  chromedriver                        0x0000000102212678 cxxbridge1$string$len + 651984
+14  chromedriver                        0x00000001021c535c cxxbridge1$string$len + 335796
+15  chromedriver                        0x0000000102602cd4 cxxbridge1$str$ptr + 2545532
+16  chromedriver                        0x0000000102605fa0 cxxbridge1$str$ptr + 2558536
+17  chromedriver                        0x00000001025e2d04 cxxbridge1$str$ptr + 2414508
+18  chromedriver                        0x0000000102606800 cxxbridge1$str$ptr + 2560680
+19  chromedriver                        0x00000001025d3ba0 cxxbridge1$str$ptr + 2352712
+20  chromedriver                        0x000000010262645c cxxbridge1$str$ptr + 2690820
+21  chromedriver                        0x00000001026265e4 cxxbridge1$str$ptr + 2691212
+22  chromedriver                        0x0000000102635a50 cxxbridge1$str$ptr + 2753784
+23  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+24  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:54:54,038 INFO 127.0.0.1 - - [19/Mar/2025 20:54:54] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:54:54,042 INFO 127.0.0.1 - - [19/Mar/2025 20:54:54] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:54:57,513 WARNING <function Cleaner.clear_cache at 0x105c118a0> was failed. Exception description:
+Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x00000001009f5804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001009edddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100541ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x000000010053a43c cxxbridge1$string$len + 61588
+4   chromedriver                        0x000000010052c624 cxxbridge1$string$len + 4732
+5   chromedriver                        0x000000010052e004 cxxbridge1$string$len + 11356
+6   chromedriver                        0x000000010052ca8c cxxbridge1$string$len + 5860
+7   chromedriver                        0x000000010052c400 cxxbridge1$string$len + 4184
+8   chromedriver                        0x000000010052c14c cxxbridge1$string$len + 3492
+9   chromedriver                        0x0000000100529e64 chromedriver + 188004
+10  chromedriver                        0x000000010052a988 chromedriver + 190856
+11  chromedriver                        0x0000000100544e58 cxxbridge1$string$len + 105136
+12  chromedriver                        0x00000001005cb198 cxxbridge1$string$len + 654832
+13  chromedriver                        0x00000001005ca678 cxxbridge1$string$len + 651984
+14  chromedriver                        0x000000010057d35c cxxbridge1$string$len + 335796
+15  chromedriver                        0x00000001009bacd4 cxxbridge1$str$ptr + 2545532
+16  chromedriver                        0x00000001009bdfa0 cxxbridge1$str$ptr + 2558536
+17  chromedriver                        0x000000010099ad04 cxxbridge1$str$ptr + 2414508
+18  chromedriver                        0x00000001009be800 cxxbridge1$str$ptr + 2560680
+19  chromedriver                        0x000000010098bba0 cxxbridge1$str$ptr + 2352712
+20  chromedriver                        0x00000001009de45c cxxbridge1$str$ptr + 2690820
+21  chromedriver                        0x00000001009de5e4 cxxbridge1$str$ptr + 2691212
+22  chromedriver                        0x00000001009eda50 cxxbridge1$str$ptr + 2753784
+23  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+24  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:54:57,596 INFO 127.0.0.1 - - [19/Mar/2025 20:54:57] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:54:57,600 INFO 127.0.0.1 - - [19/Mar/2025 20:54:57] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:55:02,528 INFO 127.0.0.1 - - [19/Mar/2025 20:55:02] "GET / HTTP/1.1" 200 -
+2025-03-19 20:55:04,525 WARNING <function Cleaner.clear_cache at 0x1021ed8a0> was failed. Exception description:
+Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x0000000101379804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000101371ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100ec5ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100ebe43c cxxbridge1$string$len + 61588
+4   chromedriver                        0x0000000100eb0624 cxxbridge1$string$len + 4732
+5   chromedriver                        0x0000000100eb2004 cxxbridge1$string$len + 11356
+6   chromedriver                        0x0000000100eb0a8c cxxbridge1$string$len + 5860
+7   chromedriver                        0x0000000100eb0400 cxxbridge1$string$len + 4184
+8   chromedriver                        0x0000000100eb014c cxxbridge1$string$len + 3492
+9   chromedriver                        0x0000000100eade64 chromedriver + 188004
+10  chromedriver                        0x0000000100eae988 chromedriver + 190856
+11  chromedriver                        0x0000000100ec8e58 cxxbridge1$string$len + 105136
+12  chromedriver                        0x0000000100f4f198 cxxbridge1$string$len + 654832
+13  chromedriver                        0x0000000100f4e678 cxxbridge1$string$len + 651984
+14  chromedriver                        0x0000000100f0135c cxxbridge1$string$len + 335796
+15  chromedriver                        0x000000010133ecd4 cxxbridge1$str$ptr + 2545532
+16  chromedriver                        0x0000000101341fa0 cxxbridge1$str$ptr + 2558536
+17  chromedriver                        0x000000010131ed04 cxxbridge1$str$ptr + 2414508
+18  chromedriver                        0x0000000101342800 cxxbridge1$str$ptr + 2560680
+19  chromedriver                        0x000000010130fba0 cxxbridge1$str$ptr + 2352712
+20  chromedriver                        0x000000010136245c cxxbridge1$str$ptr + 2690820
+21  chromedriver                        0x00000001013625e4 cxxbridge1$str$ptr + 2691212
+22  chromedriver                        0x0000000101371a50 cxxbridge1$str$ptr + 2753784
+23  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+24  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:55:04,604 INFO 127.0.0.1 - - [19/Mar/2025 20:55:04] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:55:04,607 INFO 127.0.0.1 - - [19/Mar/2025 20:55:04] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:55:35,937 INFO 127.0.0.1 - - [19/Mar/2025 20:55:35] "GET / HTTP/1.1" 200 -
+2025-03-19 20:55:42,936 INFO 127.0.0.1 - - [19/Mar/2025 20:55:42] "GET / HTTP/1.1" 200 -
+2025-03-19 20:55:51,202 INFO 127.0.0.1 - - [19/Mar/2025 20:55:51] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-03-19 20:55:51,204 INFO 127.0.0.1 - - [19/Mar/2025 20:55:51] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-03-19 20:55:51,207 INFO 127.0.0.1 - - [19/Mar/2025 20:55:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-19 20:55:51,301 INFO 127.0.0.1 - - [19/Mar/2025 20:55:51] "GET / HTTP/1.1" 200 -
+2025-03-19 20:55:52,524 INFO 127.0.0.1 - - [19/Mar/2025 20:55:52] "GET / HTTP/1.1" 200 -
+2025-03-19 20:55:57,205 INFO 127.0.0.1 - - [19/Mar/2025 20:55:57] "GET / HTTP/1.1" 200 -
+2025-03-19 20:55:57,535 INFO 127.0.0.1 - - [19/Mar/2025 20:55:57] "GET / HTTP/1.1" 200 -
+2025-03-19 20:55:58,229 WARNING <function Cleaner._clear_cache at 0x104933100> was failed. Exception description:
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="block-system-main"]/ul/li[2]/a"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102725804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x000000010271dddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000102271ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001022b91d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x00000001022fa678 cxxbridge1$string$len + 651984
+5   chromedriver                        0x00000001022ad35c cxxbridge1$string$len + 335796
+6   chromedriver                        0x00000001026eacd4 cxxbridge1$str$ptr + 2545532
+7   chromedriver                        0x00000001026edfa0 cxxbridge1$str$ptr + 2558536
+8   chromedriver                        0x00000001026cad04 cxxbridge1$str$ptr + 2414508
+9   chromedriver                        0x00000001026ee800 cxxbridge1$str$ptr + 2560680
+10  chromedriver                        0x00000001026bbba0 cxxbridge1$str$ptr + 2352712
+11  chromedriver                        0x000000010270e45c cxxbridge1$str$ptr + 2690820
+12  chromedriver                        0x000000010270e5e4 cxxbridge1$str$ptr + 2691212
+13  chromedriver                        0x000000010271da50 cxxbridge1$str$ptr + 2753784
+14  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:55:58,328 INFO 2025-03-19 20:55:58.328152 -- Cache cleared successfully.
+2025-03-19 20:55:58,351 INFO 127.0.0.1 - - [19/Mar/2025 20:55:58] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:55:58,361 INFO 127.0.0.1 - - [19/Mar/2025 20:55:58] "GET /done_page HTTP/1.1" 200 -
+2025-03-19 20:56:05,924 INFO 127.0.0.1 - - [19/Mar/2025 20:56:05] "GET / HTTP/1.1" 200 -
+2025-03-19 20:56:06,478 WARNING <function Cleaner._clear_cache at 0x10485f100> was failed. Exception description:
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="block-system-main"]/ul/li[2]/a"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001027d1804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001027c9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x000000010231dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001023651d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x00000001023a6678 cxxbridge1$string$len + 651984
+5   chromedriver                        0x000000010235935c cxxbridge1$string$len + 335796
+6   chromedriver                        0x0000000102796cd4 cxxbridge1$str$ptr + 2545532
+7   chromedriver                        0x0000000102799fa0 cxxbridge1$str$ptr + 2558536
+8   chromedriver                        0x0000000102776d04 cxxbridge1$str$ptr + 2414508
+9   chromedriver                        0x000000010279a800 cxxbridge1$str$ptr + 2560680
+10  chromedriver                        0x0000000102767ba0 cxxbridge1$str$ptr + 2352712
+11  chromedriver                        0x00000001027ba45c cxxbridge1$str$ptr + 2690820
+12  chromedriver                        0x00000001027ba5e4 cxxbridge1$str$ptr + 2691212
+13  chromedriver                        0x00000001027c9a50 cxxbridge1$str$ptr + 2753784
+14  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:56:06,562 INFO 2025-03-19 20:56:06.562199 -- Cache cleared successfully.
+2025-03-19 20:56:06,580 INFO 127.0.0.1 - - [19/Mar/2025 20:56:06] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:56:06,585 INFO 127.0.0.1 - - [19/Mar/2025 20:56:06] "GET /done_page HTTP/1.1" 200 -
+2025-03-19 20:56:07,537 INFO 2025-03-19 20:56:07.537805 -- Cache cleared successfully.
+2025-03-19 20:56:07,550 INFO 127.0.0.1 - - [19/Mar/2025 20:56:07] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:56:07,559 INFO 127.0.0.1 - - [19/Mar/2025 20:56:07] "GET /done_page HTTP/1.1" 200 -
+2025-03-19 20:56:20,006 WARNING <function Cleaner._clear_cache at 0x1025a7100> was failed. Exception description:
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="block-system-main"]/ul/li[2]/a"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001012fd804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f5ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e49ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e911d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000100ed2678 cxxbridge1$string$len + 651984
+5   chromedriver                        0x0000000100e8535c cxxbridge1$string$len + 335796
+6   chromedriver                        0x00000001012c2cd4 cxxbridge1$str$ptr + 2545532
+7   chromedriver                        0x00000001012c5fa0 cxxbridge1$str$ptr + 2558536
+8   chromedriver                        0x00000001012a2d04 cxxbridge1$str$ptr + 2414508
+9   chromedriver                        0x00000001012c6800 cxxbridge1$str$ptr + 2560680
+10  chromedriver                        0x0000000101293ba0 cxxbridge1$str$ptr + 2352712
+11  chromedriver                        0x00000001012e645c cxxbridge1$str$ptr + 2690820
+12  chromedriver                        0x00000001012e65e4 cxxbridge1$str$ptr + 2691212
+13  chromedriver                        0x00000001012f5a50 cxxbridge1$str$ptr + 2753784
+14  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:56:20,094 INFO 2025-03-19 20:56:20.094065 -- Cache cleared successfully.
+2025-03-19 20:56:20,109 INFO 127.0.0.1 - - [19/Mar/2025 20:56:20] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:56:20,122 INFO 127.0.0.1 - - [19/Mar/2025 20:56:20] "GET /done_page HTTP/1.1" 200 -
+2025-03-20 00:44:36,003 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 00:44:36,004 INFO [33mPress CTRL+C to quit[0m
+2025-03-20 00:44:36,004 INFO  * Restarting with stat
+2025-03-20 00:44:36,097 WARNING  * Debugger is active!
+2025-03-20 00:44:36,104 INFO  * Debugger PIN: 124-228-198
+2025-03-20 00:45:29,412 INFO 127.0.0.1 - - [20/Mar/2025 00:45:29] "GET / HTTP/1.1" 200 -
+2025-03-20 00:45:55,965 WARNING <function Cleaner.clear_cache at 0x10284c720> was failed. Exception description:
+Message: timeout: Timed out receiving message from renderer: -0.005
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x00000001028d5798 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001028cdd70 cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000102421ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x000000010240c3d4 cxxbridge1$string$len + 4140
+4   chromedriver                        0x000000010240c14c cxxbridge1$string$len + 3492
+5   chromedriver                        0x0000000102409e64 chromedriver + 188004
+6   chromedriver                        0x000000010240aabc chromedriver + 191164
+7   chromedriver                        0x0000000102418690 cxxbridge1$string$len + 53992
+8   chromedriver                        0x000000010242e3ac cxxbridge1$string$len + 143364
+9   chromedriver                        0x000000010240b0f0 chromedriver + 192752
+10  chromedriver                        0x000000010242e194 cxxbridge1$string$len + 142828
+11  chromedriver                        0x00000001024aa5c0 cxxbridge1$string$len + 651800
+12  chromedriver                        0x000000010245d35c cxxbridge1$string$len + 335796
+13  chromedriver                        0x000000010289ac68 cxxbridge1$str$ptr + 2545532
+14  chromedriver                        0x000000010289df34 cxxbridge1$str$ptr + 2558536
+15  chromedriver                        0x000000010287ac98 cxxbridge1$str$ptr + 2414508
+16  chromedriver                        0x000000010289e794 cxxbridge1$str$ptr + 2560680
+17  chromedriver                        0x000000010286bb34 cxxbridge1$str$ptr + 2352712
+18  chromedriver                        0x00000001028be3f0 cxxbridge1$str$ptr + 2690820
+19  chromedriver                        0x00000001028be578 cxxbridge1$str$ptr + 2691212
+20  chromedriver                        0x00000001028cd9e4 cxxbridge1$str$ptr + 2753784
+21  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-20 00:45:56,060 INFO 127.0.0.1 - - [20/Mar/2025 00:45:56] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-20 00:45:56,071 INFO 127.0.0.1 - - [20/Mar/2025 00:45:56] "GET /failed_page HTTP/1.1" 200 -
+2025-03-20 00:45:58,828 INFO 127.0.0.1 - - [20/Mar/2025 00:45:58] "GET / HTTP/1.1" 200 -
+2025-03-20 00:47:20,675 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 00:47:20,675 INFO [33mPress CTRL+C to quit[0m
+2025-03-20 00:47:20,676 INFO  * Restarting with stat
+2025-03-20 00:47:20,776 WARNING  * Debugger is active!
+2025-03-20 00:47:20,781 INFO  * Debugger PIN: 124-228-198
+2025-03-20 00:47:23,508 INFO 127.0.0.1 - - [20/Mar/2025 00:47:23] "GET / HTTP/1.1" 200 -
+2025-03-20 00:47:25,236 INFO 127.0.0.1 - - [20/Mar/2025 00:47:25] "GET / HTTP/1.1" 200 -
+2025-03-20 00:47:25,428 INFO 127.0.0.1 - - [20/Mar/2025 00:47:25] "GET / HTTP/1.1" 200 -
+2025-03-20 00:47:26,226 INFO 127.0.0.1 - - [20/Mar/2025 00:47:26] "GET / HTTP/1.1" 200 -
+2025-03-20 00:47:36,152 INFO 127.0.0.1 - - [20/Mar/2025 00:47:36] "GET / HTTP/1.1" 200 -
+2025-03-20 00:48:31,678 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 00:48:31,678 INFO [33mPress CTRL+C to quit[0m
+2025-03-20 00:48:31,678 INFO  * Restarting with stat
+2025-03-20 00:48:31,764 WARNING  * Debugger is active!
+2025-03-20 00:48:31,769 INFO  * Debugger PIN: 124-228-198
+2025-03-20 00:49:08,013 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 00:49:08,013 INFO [33mPress CTRL+C to quit[0m
+2025-03-20 00:49:08,014 INFO  * Restarting with stat
+2025-03-20 00:49:08,106 WARNING  * Debugger is active!
+2025-03-20 00:49:08,110 INFO  * Debugger PIN: 124-228-198
+2025-03-20 00:49:10,704 INFO 127.0.0.1 - - [20/Mar/2025 00:49:10] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-03-20 00:49:10,707 INFO 127.0.0.1 - - [20/Mar/2025 00:49:10] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-03-20 00:49:10,707 INFO 127.0.0.1 - - [20/Mar/2025 00:49:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 00:49:26,847 INFO 127.0.0.1 - - [20/Mar/2025 00:49:26] "GET / HTTP/1.1" 200 -
+2025-03-20 00:49:26,936 INFO 127.0.0.1 - - [20/Mar/2025 00:49:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 00:49:28,043 INFO 127.0.0.1 - - [20/Mar/2025 00:49:28] "GET / HTTP/1.1" 200 -
+2025-03-20 00:49:36,500 INFO 127.0.0.1 - - [20/Mar/2025 00:49:36] "GET / HTTP/1.1" 200 -
+2025-03-20 00:51:31,836 WARNING <function Cleaner.clear_cache at 0x102384680> was failed. Exception description:
+Message: timeout: Timed out receiving message from renderer: -0.003
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x0000000104a0d798 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000104a05d70 cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104559ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001045443d4 cxxbridge1$string$len + 4140
+4   chromedriver                        0x000000010454414c cxxbridge1$string$len + 3492
+5   chromedriver                        0x0000000104541e64 chromedriver + 188004
+6   chromedriver                        0x0000000104542abc chromedriver + 191164
+7   chromedriver                        0x0000000104550690 cxxbridge1$string$len + 53992
+8   chromedriver                        0x00000001045663ac cxxbridge1$string$len + 143364
+9   chromedriver                        0x00000001045430f0 chromedriver + 192752
+10  chromedriver                        0x0000000104566194 cxxbridge1$string$len + 142828
+11  chromedriver                        0x00000001045e25c0 cxxbridge1$string$len + 651800
+12  chromedriver                        0x000000010459535c cxxbridge1$string$len + 335796
+13  chromedriver                        0x00000001049d2c68 cxxbridge1$str$ptr + 2545532
+14  chromedriver                        0x00000001049d5f34 cxxbridge1$str$ptr + 2558536
+15  chromedriver                        0x00000001049b2c98 cxxbridge1$str$ptr + 2414508
+16  chromedriver                        0x00000001049d6794 cxxbridge1$str$ptr + 2560680
+17  chromedriver                        0x00000001049a3b34 cxxbridge1$str$ptr + 2352712
+18  chromedriver                        0x00000001049f63f0 cxxbridge1$str$ptr + 2690820
+19  chromedriver                        0x00000001049f6578 cxxbridge1$str$ptr + 2691212
+20  chromedriver                        0x0000000104a059e4 cxxbridge1$str$ptr + 2753784
+21  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-20 00:51:31,921 INFO 127.0.0.1 - - [20/Mar/2025 00:51:31] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-20 00:51:31,926 INFO 127.0.0.1 - - [20/Mar/2025 00:51:31] "GET /failed_page HTTP/1.1" 200 -
+2025-03-20 00:51:34,729 INFO 127.0.0.1 - - [20/Mar/2025 00:51:34] "GET / HTTP/1.1" 200 -
