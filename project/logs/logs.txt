@@ -1,0 +1,431 @@
+
+2025-03-19 19:37:17,829 WARNING <function Cleaner._clear_cache at 0x105b19120> was failed. Exception description:
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="block-system-main"]/ul/li[2]/a"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001048d5804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001048cdddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104421ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001044691d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x00000001044aa678 cxxbridge1$string$len + 651984
+5   chromedriver                        0x000000010445d35c cxxbridge1$string$len + 335796
+6   chromedriver                        0x000000010489acd4 cxxbridge1$str$ptr + 2545532
+7   chromedriver                        0x000000010489dfa0 cxxbridge1$str$ptr + 2558536
+8   chromedriver                        0x000000010487ad04 cxxbridge1$str$ptr + 2414508
+9   chromedriver                        0x000000010489e800 cxxbridge1$str$ptr + 2560680
+10  chromedriver                        0x000000010486bba0 cxxbridge1$str$ptr + 2352712
+11  chromedriver                        0x00000001048be45c cxxbridge1$str$ptr + 2690820
+12  chromedriver                        0x00000001048be5e4 cxxbridge1$str$ptr + 2691212
+13  chromedriver                        0x00000001048cda50 cxxbridge1$str$ptr + 2753784
+14  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 19:37:17,911 INFO 2025-03-19 19:37:17.911060 -- Cache cleared successfully.
+2025-03-19 19:39:49,861 WARNING <function Cleaner._clear_cache at 0x1050d1120> was failed. Exception description:
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="block-system-main"]/ul/li[2]/a"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102b81804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000102b79ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x00000001026cdea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001027151d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000102756678 cxxbridge1$string$len + 651984
+5   chromedriver                        0x000000010270935c cxxbridge1$string$len + 335796
+6   chromedriver                        0x0000000102b46cd4 cxxbridge1$str$ptr + 2545532
+7   chromedriver                        0x0000000102b49fa0 cxxbridge1$str$ptr + 2558536
+8   chromedriver                        0x0000000102b26d04 cxxbridge1$str$ptr + 2414508
+9   chromedriver                        0x0000000102b4a800 cxxbridge1$str$ptr + 2560680
+10  chromedriver                        0x0000000102b17ba0 cxxbridge1$str$ptr + 2352712
+11  chromedriver                        0x0000000102b6a45c cxxbridge1$str$ptr + 2690820
+12  chromedriver                        0x0000000102b6a5e4 cxxbridge1$str$ptr + 2691212
+13  chromedriver                        0x0000000102b79a50 cxxbridge1$str$ptr + 2753784
+14  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 19:39:49,947 INFO 2025-03-19 19:39:49.947497 -- Cache cleared successfully.
+2025-03-19 19:40:23,220 INFO 2025-03-19 19:40:23.220521 -- Cache cleared successfully.
+2025-03-19 19:40:23,427 INFO 2025-03-19 19:40:23.427871 -- Cache cleared successfully.
+2025-03-19 20:00:07,981 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:00:07,981 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:00:16,017 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:00:16,017 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:00:16,017 INFO  * Restarting with stat
+2025-03-19 20:00:16,116 WARNING  * Debugger is active!
+2025-03-19 20:00:16,121 INFO  * Debugger PIN: 124-228-198
+2025-03-19 20:00:41,394 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:00:41,394 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:00:41,395 INFO  * Restarting with stat
+2025-03-19 20:00:41,487 WARNING  * Debugger is active!
+2025-03-19 20:00:41,491 INFO  * Debugger PIN: 124-228-198
+2025-03-19 20:01:31,717 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:01:31,718 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:01:31,718 INFO  * Restarting with stat
+2025-03-19 20:01:31,810 WARNING  * Debugger is active!
+2025-03-19 20:01:31,815 INFO  * Debugger PIN: 124-228-198
+2025-03-19 20:01:36,751 INFO 127.0.0.1 - - [19/Mar/2025 20:01:36] "[33mGET /failed HTTP/1.1[0m" 404 -
+2025-03-19 20:01:39,694 INFO 127.0.0.1 - - [19/Mar/2025 20:01:39] "GET / HTTP/1.1" 200 -
+2025-03-19 20:01:50,081 INFO 127.0.0.1 - - [19/Mar/2025 20:01:50] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:02:50,380 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:02:50,381 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:02:50,381 INFO  * Restarting with stat
+2025-03-19 20:02:50,473 WARNING  * Debugger is active!
+2025-03-19 20:02:50,479 INFO  * Debugger PIN: 124-228-198
+2025-03-19 20:02:52,523 INFO 127.0.0.1 - - [19/Mar/2025 20:02:52] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:02:54,518 INFO 127.0.0.1 - - [19/Mar/2025 20:02:54] "GET / HTTP/1.1" 200 -
+2025-03-19 20:03:00,479 INFO 127.0.0.1 - - [19/Mar/2025 20:03:00] "[35m[1mGET /run-script HTTP/1.1[0m" 500 -
+2025-03-19 20:03:00,492 INFO 127.0.0.1 - - [19/Mar/2025 20:03:00] "GET /run-script?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-19 20:03:00,492 INFO 127.0.0.1 - - [19/Mar/2025 20:03:00] "GET /run-script?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-19 20:03:00,503 INFO 127.0.0.1 - - [19/Mar/2025 20:03:00] "GET /run-script?__debugger__=yes&cmd=resource&f=console.png&s=dRiMiBNZmeCy2vIxzKRt HTTP/1.1" 200 -
+2025-03-19 20:03:00,540 INFO 127.0.0.1 - - [19/Mar/2025 20:03:00] "GET /run-script?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-19 20:04:12,746 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:04:12,747 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:04:12,747 INFO  * Restarting with stat
+2025-03-19 20:04:12,833 WARNING  * Debugger is active!
+2025-03-19 20:04:12,838 INFO  * Debugger PIN: 124-228-198
+2025-03-19 20:04:20,604 INFO 127.0.0.1 - - [19/Mar/2025 20:04:20] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:04:20,619 INFO 127.0.0.1 - - [19/Mar/2025 20:04:20] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:04:23,769 WARNING <function Cleaner._login at 0x106350040> was failed. Exception description:
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x0000000102cb9804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000102cb1ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000102805ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001027dfa78 chromedriver + 129656
+4   chromedriver                        0x0000000102875498 cxxbridge1$string$len + 549104
+5   chromedriver                        0x000000010288e178 cxxbridge1$string$len + 650704
+6   chromedriver                        0x000000010284135c cxxbridge1$string$len + 335796
+7   chromedriver                        0x0000000102c7ecd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x0000000102c81fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x0000000102c5ed04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x0000000102c82800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000102c4fba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x0000000102ca245c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x0000000102ca25e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x0000000102cb1a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:04:23,770 WARNING <function Cleaner.clear_cache at 0x106465940> was failed. Exception description:
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x0000000102cb9804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000102cb1ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000102805ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001027dfa78 chromedriver + 129656
+4   chromedriver                        0x0000000102875498 cxxbridge1$string$len + 549104
+5   chromedriver                        0x000000010288e178 cxxbridge1$string$len + 650704
+6   chromedriver                        0x000000010284135c cxxbridge1$string$len + 335796
+7   chromedriver                        0x0000000102c7ecd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x0000000102c81fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x0000000102c5ed04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x0000000102c82800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000102c4fba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x0000000102ca245c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x0000000102ca25e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x0000000102cb1a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:04:23,860 WARNING Loop <_UnixSelectorEventLoop running=False closed=True debug=False> that handles pid 96634 is closed
+2025-03-19 20:04:29,463 INFO 127.0.0.1 - - [19/Mar/2025 20:04:29] "GET / HTTP/1.1" 200 -
+2025-03-19 20:04:37,213 INFO 127.0.0.1 - - [19/Mar/2025 20:04:37] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:04:37,229 INFO 127.0.0.1 - - [19/Mar/2025 20:04:37] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:04:47,969 INFO 127.0.0.1 - - [19/Mar/2025 20:04:47] "GET / HTTP/1.1" 200 -
+2025-03-19 20:04:53,502 INFO 127.0.0.1 - - [19/Mar/2025 20:04:53] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:04:53,517 INFO 127.0.0.1 - - [19/Mar/2025 20:04:53] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:10:16,305 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:10:16,306 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:10:16,306 INFO  * Restarting with stat
+2025-03-19 20:10:16,394 WARNING  * Debugger is active!
+2025-03-19 20:10:16,399 INFO  * Debugger PIN: 124-228-198
+2025-03-19 20:10:28,380 INFO 127.0.0.1 - - [19/Mar/2025 20:10:28] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-03-19 20:10:28,381 INFO 127.0.0.1 - - [19/Mar/2025 20:10:28] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-03-19 20:10:28,381 INFO 127.0.0.1 - - [19/Mar/2025 20:10:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-19 20:10:37,204 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:10:37,204 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:10:37,205 INFO  * Restarting with stat
+2025-03-19 20:10:37,300 WARNING  * Debugger is active!
+2025-03-19 20:10:37,304 INFO  * Debugger PIN: 124-228-198
+2025-03-19 20:11:51,342 INFO 127.0.0.1 - - [19/Mar/2025 20:11:51] "GET / HTTP/1.1" 200 -
+2025-03-19 20:11:57,872 INFO Function 'run_script_async' timed out after 5 seconds.
+2025-03-19 20:11:57,875 INFO 127.0.0.1 - - [19/Mar/2025 20:11:57] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:11:57,892 INFO 127.0.0.1 - - [19/Mar/2025 20:11:57] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:12:55,591 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:12:55,591 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:12:55,592 INFO  * Restarting with stat
+2025-03-19 20:12:55,680 WARNING  * Debugger is active!
+2025-03-19 20:12:55,685 INFO  * Debugger PIN: 124-228-198
+2025-03-19 20:12:58,421 INFO 127.0.0.1 - - [19/Mar/2025 20:12:58] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:13:00,235 INFO 127.0.0.1 - - [19/Mar/2025 20:13:00] "GET / HTTP/1.1" 200 -
+2025-03-19 20:13:06,124 INFO Function 'run_script_async' timed out after 5 seconds.
+2025-03-19 20:13:06,125 INFO 127.0.0.1 - - [19/Mar/2025 20:13:06] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:13:06,139 INFO 127.0.0.1 - - [19/Mar/2025 20:13:06] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:15:01,985 WARNING <function Cleaner.clear_cache at 0x10661d8a0> was failed. Exception description:
+HTTPConnectionPool(host='localhost', port=50348): Read timed out. (read timeout=120)
+2025-03-19 20:16:43,421 WARNING Loop <_UnixSelectorEventLoop running=False closed=True debug=False> that handles pid 97026 is closed
+2025-03-19 20:20:34,503 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:20:34,503 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:20:34,504 INFO  * Restarting with stat
+2025-03-19 20:20:34,592 WARNING  * Debugger is active!
+2025-03-19 20:20:34,597 INFO  * Debugger PIN: 124-228-198
+2025-03-19 20:20:36,596 INFO 127.0.0.1 - - [19/Mar/2025 20:20:36] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:20:39,329 INFO 127.0.0.1 - - [19/Mar/2025 20:20:39] "GET / HTTP/1.1" 200 -
+2025-03-19 20:20:45,235 INFO Function 'run_script_async' timed out after 5 seconds.
+2025-03-19 20:20:45,237 INFO 127.0.0.1 - - [19/Mar/2025 20:20:45] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:20:45,253 INFO 127.0.0.1 - - [19/Mar/2025 20:20:45] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:20:54,399 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:20:54,399 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:20:54,400 INFO  * Restarting with stat
+2025-03-19 20:20:54,489 WARNING  * Debugger is active!
+2025-03-19 20:20:54,494 INFO  * Debugger PIN: 124-228-198
+2025-03-19 20:34:50,565 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101f85550>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/ccdffd2b09f50c6dabca406fb3bba567
+2025-03-19 20:34:50,565 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1009d17c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/ccdffd2b09f50c6dabca406fb3bba567
+2025-03-19 20:34:50,566 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101f85790>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/ccdffd2b09f50c6dabca406fb3bba567
+2025-03-19 20:37:14,188 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:37:14,188 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:37:14,189 INFO  * Restarting with stat
+2025-03-19 20:37:14,280 WARNING  * Debugger is active!
+2025-03-19 20:37:14,285 INFO  * Debugger PIN: 124-228-198
+2025-03-19 20:37:16,983 INFO 127.0.0.1 - - [19/Mar/2025 20:37:16] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:37:17,962 INFO 127.0.0.1 - - [19/Mar/2025 20:37:17] "GET / HTTP/1.1" 200 -
+2025-03-19 20:37:23,958 INFO 127.0.0.1 - - [19/Mar/2025 20:37:23] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:37:23,974 INFO 127.0.0.1 - - [19/Mar/2025 20:37:23] "GET /failed_page HTTP/1.1" 200 -
+2025-03-19 20:47:16,525 WARNING <function Cleaner.clear_cache at 0x106411800> was failed. Exception description:
+Message: timeout: Timed out receiving message from renderer: -0.005
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x0000000100555804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x000000010054dddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x00000001000a1ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x000000010008c3d4 cxxbridge1$string$len + 4140
+4   chromedriver                        0x000000010008c14c cxxbridge1$string$len + 3492
+5   chromedriver                        0x0000000100089e64 chromedriver + 188004
+6   chromedriver                        0x000000010008aabc chromedriver + 191164
+7   chromedriver                        0x0000000100098690 cxxbridge1$string$len + 53992
+8   chromedriver                        0x00000001000ae3ac cxxbridge1$string$len + 143364
+9   chromedriver                        0x000000010008b0f0 chromedriver + 192752
+10  chromedriver                        0x00000001000ae194 cxxbridge1$string$len + 142828
+11  chromedriver                        0x000000010012a5c0 cxxbridge1$string$len + 651800
+12  chromedriver                        0x00000001000dd35c cxxbridge1$string$len + 335796
+13  chromedriver                        0x000000010051acd4 cxxbridge1$str$ptr + 2545532
+14  chromedriver                        0x000000010051dfa0 cxxbridge1$str$ptr + 2558536
+15  chromedriver                        0x00000001004fad04 cxxbridge1$str$ptr + 2414508
+16  chromedriver                        0x000000010051e800 cxxbridge1$str$ptr + 2560680
+17  chromedriver                        0x00000001004ebba0 cxxbridge1$str$ptr + 2352712
+18  chromedriver                        0x000000010053e45c cxxbridge1$str$ptr + 2690820
+19  chromedriver                        0x000000010053e5e4 cxxbridge1$str$ptr + 2691212
+20  chromedriver                        0x000000010054da50 cxxbridge1$str$ptr + 2753784
+21  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:47:24,754 WARNING <function Cleaner.clear_cache at 0x102869800> was failed. Exception description:
+Message: timeout: Timed out receiving message from renderer: -0.005
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x000000010456d804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000104565ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x00000001040b9ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001040a43d4 cxxbridge1$string$len + 4140
+4   chromedriver                        0x00000001040a414c cxxbridge1$string$len + 3492
+5   chromedriver                        0x00000001040a1e64 chromedriver + 188004
+6   chromedriver                        0x00000001040a2abc chromedriver + 191164
+7   chromedriver                        0x00000001040b0690 cxxbridge1$string$len + 53992
+8   chromedriver                        0x00000001040c63ac cxxbridge1$string$len + 143364
+9   chromedriver                        0x00000001040a30f0 chromedriver + 192752
+10  chromedriver                        0x00000001040c6194 cxxbridge1$string$len + 142828
+11  chromedriver                        0x00000001041425c0 cxxbridge1$string$len + 651800
+12  chromedriver                        0x00000001040f535c cxxbridge1$string$len + 335796
+13  chromedriver                        0x0000000104532cd4 cxxbridge1$str$ptr + 2545532
+14  chromedriver                        0x0000000104535fa0 cxxbridge1$str$ptr + 2558536
+15  chromedriver                        0x0000000104512d04 cxxbridge1$str$ptr + 2414508
+16  chromedriver                        0x0000000104536800 cxxbridge1$str$ptr + 2560680
+17  chromedriver                        0x0000000104503ba0 cxxbridge1$str$ptr + 2352712
+18  chromedriver                        0x000000010455645c cxxbridge1$str$ptr + 2690820
+19  chromedriver                        0x00000001045565e4 cxxbridge1$str$ptr + 2691212
+20  chromedriver                        0x0000000104565a50 cxxbridge1$str$ptr + 2753784
+21  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:47:57,404 WARNING <function Cleaner.clear_cache at 0x102669800> was failed. Exception description:
+Message: timeout: Timed out receiving message from renderer: -0.005
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x0000000105395804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x000000010538dddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104ee1ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000104ecc3d4 cxxbridge1$string$len + 4140
+4   chromedriver                        0x0000000104ecc14c cxxbridge1$string$len + 3492
+5   chromedriver                        0x0000000104ec9e64 chromedriver + 188004
+6   chromedriver                        0x0000000104ecaabc chromedriver + 191164
+7   chromedriver                        0x0000000104ed8690 cxxbridge1$string$len + 53992
+8   chromedriver                        0x0000000104eee3ac cxxbridge1$string$len + 143364
+9   chromedriver                        0x0000000104ecb0f0 chromedriver + 192752
+10  chromedriver                        0x0000000104eee194 cxxbridge1$string$len + 142828
+11  chromedriver                        0x0000000104f6a5c0 cxxbridge1$string$len + 651800
+12  chromedriver                        0x0000000104f1d35c cxxbridge1$string$len + 335796
+13  chromedriver                        0x000000010535acd4 cxxbridge1$str$ptr + 2545532
+14  chromedriver                        0x000000010535dfa0 cxxbridge1$str$ptr + 2558536
+15  chromedriver                        0x000000010533ad04 cxxbridge1$str$ptr + 2414508
+16  chromedriver                        0x000000010535e800 cxxbridge1$str$ptr + 2560680
+17  chromedriver                        0x000000010532bba0 cxxbridge1$str$ptr + 2352712
+18  chromedriver                        0x000000010537e45c cxxbridge1$str$ptr + 2690820
+19  chromedriver                        0x000000010537e5e4 cxxbridge1$str$ptr + 2691212
+20  chromedriver                        0x000000010538da50 cxxbridge1$str$ptr + 2753784
+21  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:48:10,566 WARNING <function Cleaner.clear_cache at 0x106929800> was failed. Exception description:
+Message: timeout: Timed out receiving message from renderer: -0.005
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x0000000104e0d804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000104e05ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104959ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001049443d4 cxxbridge1$string$len + 4140
+4   chromedriver                        0x000000010494414c cxxbridge1$string$len + 3492
+5   chromedriver                        0x0000000104941e64 chromedriver + 188004
+6   chromedriver                        0x0000000104942abc chromedriver + 191164
+7   chromedriver                        0x0000000104950690 cxxbridge1$string$len + 53992
+8   chromedriver                        0x00000001049663ac cxxbridge1$string$len + 143364
+9   chromedriver                        0x00000001049430f0 chromedriver + 192752
+10  chromedriver                        0x0000000104966194 cxxbridge1$string$len + 142828
+11  chromedriver                        0x00000001049e25c0 cxxbridge1$string$len + 651800
+12  chromedriver                        0x000000010499535c cxxbridge1$string$len + 335796
+13  chromedriver                        0x0000000104dd2cd4 cxxbridge1$str$ptr + 2545532
+14  chromedriver                        0x0000000104dd5fa0 cxxbridge1$str$ptr + 2558536
+15  chromedriver                        0x0000000104db2d04 cxxbridge1$str$ptr + 2414508
+16  chromedriver                        0x0000000104dd6800 cxxbridge1$str$ptr + 2560680
+17  chromedriver                        0x0000000104da3ba0 cxxbridge1$str$ptr + 2352712
+18  chromedriver                        0x0000000104df645c cxxbridge1$str$ptr + 2690820
+19  chromedriver                        0x0000000104df65e4 cxxbridge1$str$ptr + 2691212
+20  chromedriver                        0x0000000104e05a50 cxxbridge1$str$ptr + 2753784
+21  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:48:42,459 WARNING <function Cleaner.clear_cache at 0x105c91800> was failed. Exception description:
+Message: timeout: Timed out receiving message from renderer: -0.003
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x0000000103279804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000103271ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000102dc5ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000102db03d4 cxxbridge1$string$len + 4140
+4   chromedriver                        0x0000000102db014c cxxbridge1$string$len + 3492
+5   chromedriver                        0x0000000102dade64 chromedriver + 188004
+6   chromedriver                        0x0000000102daeabc chromedriver + 191164
+7   chromedriver                        0x0000000102dbc690 cxxbridge1$string$len + 53992
+8   chromedriver                        0x0000000102dd23ac cxxbridge1$string$len + 143364
+9   chromedriver                        0x0000000102daf0f0 chromedriver + 192752
+10  chromedriver                        0x0000000102dd2194 cxxbridge1$string$len + 142828
+11  chromedriver                        0x0000000102e4e5c0 cxxbridge1$string$len + 651800
+12  chromedriver                        0x0000000102e0135c cxxbridge1$string$len + 335796
+13  chromedriver                        0x000000010323ecd4 cxxbridge1$str$ptr + 2545532
+14  chromedriver                        0x0000000103241fa0 cxxbridge1$str$ptr + 2558536
+15  chromedriver                        0x000000010321ed04 cxxbridge1$str$ptr + 2414508
+16  chromedriver                        0x0000000103242800 cxxbridge1$str$ptr + 2560680
+17  chromedriver                        0x000000010320fba0 cxxbridge1$str$ptr + 2352712
+18  chromedriver                        0x000000010326245c cxxbridge1$str$ptr + 2690820
+19  chromedriver                        0x00000001032625e4 cxxbridge1$str$ptr + 2691212
+20  chromedriver                        0x0000000103271a50 cxxbridge1$str$ptr + 2753784
+21  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:51:02,289 WARNING <function Cleaner._login at 0x107ae1080> was failed. Exception description:
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x00000001010a9804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001010a1ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100bf5ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100bcfa78 chromedriver + 129656
+4   chromedriver                        0x0000000100c65498 cxxbridge1$string$len + 549104
+5   chromedriver                        0x0000000100c7e178 cxxbridge1$string$len + 650704
+6   chromedriver                        0x0000000100c3135c cxxbridge1$string$len + 335796
+7   chromedriver                        0x000000010106ecd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x0000000101071fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x000000010104ed04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x0000000101072800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x000000010103fba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x000000010109245c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x00000001010925e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x00000001010a1a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:51:02,290 WARNING <function Cleaner.clear_cache at 0x107cb58a0> was failed. Exception description:
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x00000001010a9804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001010a1ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100bf5ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100bcfa78 chromedriver + 129656
+4   chromedriver                        0x0000000100c65498 cxxbridge1$string$len + 549104
+5   chromedriver                        0x0000000100c7e178 cxxbridge1$string$len + 650704
+6   chromedriver                        0x0000000100c3135c cxxbridge1$string$len + 335796
+7   chromedriver                        0x000000010106ecd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x0000000101071fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x000000010104ed04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x0000000101072800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x000000010103fba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x000000010109245c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x00000001010925e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x00000001010a1a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:52:59,695 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:52:59,695 INFO [33mPress CTRL+C to quit[0m
+2025-03-19 20:52:59,697 INFO  * Restarting with stat
+2025-03-19 20:52:59,781 WARNING  * Debugger is active!
+2025-03-19 20:52:59,786 INFO  * Debugger PIN: 124-228-198
+2025-03-19 20:53:04,301 INFO 127.0.0.1 - - [19/Mar/2025 20:53:04] "GET / HTTP/1.1" 200 -
+2025-03-19 20:53:16,608 WARNING <function Cleaner.clear_cache at 0x101fa58a0> was failed. Exception description:
+Message: timeout: Timed out receiving message from renderer: -0.005
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x000000010472d804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000104725ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104279ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001042643d4 cxxbridge1$string$len + 4140
+4   chromedriver                        0x000000010426414c cxxbridge1$string$len + 3492
+5   chromedriver                        0x0000000104261e64 chromedriver + 188004
+6   chromedriver                        0x0000000104262abc chromedriver + 191164
+7   chromedriver                        0x0000000104270690 cxxbridge1$string$len + 53992
+8   chromedriver                        0x00000001042863ac cxxbridge1$string$len + 143364
+9   chromedriver                        0x00000001042630f0 chromedriver + 192752
+10  chromedriver                        0x0000000104286194 cxxbridge1$string$len + 142828
+11  chromedriver                        0x00000001043025c0 cxxbridge1$string$len + 651800
+12  chromedriver                        0x00000001042b535c cxxbridge1$string$len + 335796
+13  chromedriver                        0x00000001046f2cd4 cxxbridge1$str$ptr + 2545532
+14  chromedriver                        0x00000001046f5fa0 cxxbridge1$str$ptr + 2558536
+15  chromedriver                        0x00000001046d2d04 cxxbridge1$str$ptr + 2414508
+16  chromedriver                        0x00000001046f6800 cxxbridge1$str$ptr + 2560680
+17  chromedriver                        0x00000001046c3ba0 cxxbridge1$str$ptr + 2352712
+18  chromedriver                        0x000000010471645c cxxbridge1$str$ptr + 2690820
+19  chromedriver                        0x00000001047165e4 cxxbridge1$str$ptr + 2691212
+20  chromedriver                        0x0000000104725a50 cxxbridge1$str$ptr + 2753784
+21  libsystem_pthread.dylib             0x000000019c0442e4 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000019c03f0fc thread_start + 8
+
+2025-03-19 20:53:16,705 INFO 127.0.0.1 - - [19/Mar/2025 20:53:16] "[32mGET /run-script HTTP/1.1[0m" 302 -
+2025-03-19 20:53:16,718 INFO 127.0.0.1 - - [19/Mar/2025 20:53:16] "GET /failed_page HTTP/1.1" 200 -
